@@ -32,7 +32,6 @@ import org.springframework.security.core.userdetails.UserDetails;
  *   <li>Public endpoints: /auth/**, /h2-console/**, /</li>
  *   <li>All others require valid JWT</li>
  * </ul>
- * 
  */
 @Configuration
 @EnableWebSecurity
